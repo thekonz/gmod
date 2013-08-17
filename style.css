@@ -1,3 +1,6 @@
+/*
+ * This adds the font Coolvetica to the website.
+ */
 @font-face {
 	src: url('COOLVETI.TTF');
 	font-family: 'coolveticaregular';
@@ -11,21 +14,26 @@
 padding: 0;
 margin: 0;
 }
+/*
+ * Had to do this, because the radial-gradient wouldn't show up.
+ */
 html, body {
 	height:100%;
 }
 body {
-	height:100%;
-	width:100%;
 	background: radial-gradient(#F4F4F4, #BECAD6);
 	font-family: 'coolveticaregular', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
+/*
+ * The big blue box.
+ * The best part: You can scale the entire thing with the font-size.
+ */
 #gbox {
+	font-size:10.0em;
 	width:1em;
 	height:1em;
 	color:#FFF;
-	font-size:10.0em;
 	text-shadow:0 0 0.03em rgba(0,0,0,0.3);
 	background-color: #1295F0;
 	border-radius: 0.08em;
@@ -43,6 +51,9 @@ body {
 	margin-left: -0.5em;
 	outline: 1px solid transparent;
 }
+/*
+ * The small gray ellipse behind the big blue box.
+ */
 #stupidellipse {
 	font-size: 10em;
 	height:0.25em;
@@ -55,6 +66,9 @@ body {
 	margin-left: -0.70em;
 	border-radius:1.5em/0.25em;
 }
+/*
+ * Loading comment...
+ */
 #fkinload {
 	font-family:  Tahoma, Verdana, sans-serif;
 	font-size:0.8em;
@@ -77,6 +91,9 @@ body {
 	border-radius: 0.2em;
 	vertical-align: bottom;
 }
+/*
+ * Animations!
+ */
 @-webkit-keyframes load {
 	from {
 		width:0.2em;
@@ -93,6 +110,9 @@ body {
 		width:12.8em;
 	}
 }
+/*
+ * The green part of the loading bar.
+ */
 #fkinbar div {
 	border-radius: 0.1em;
 	width:1em;
