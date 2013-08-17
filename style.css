@@ -18,7 +18,7 @@ body {
 	height:100%;
 	width:100%;
 	background: radial-gradient(#F4F4F4, #BECAD6);
-	font-family: 'coolveticaregular';
+	font-family: 'coolveticaregular', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 #gbox {
