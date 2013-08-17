@@ -1,0 +1,11 @@
+#Let git ignore all font files
+#to avoid getting sued.
+#I used the font Coolvetica.
+#It's free, but for some reason,
+#I am not allowed to share it.
+
+*.ttf
+*.eot
+*.svg
+*.ttf
+*.woff
