@@ -8,4 +8,5 @@ That is because I don't want to get sued for sharing the font `Coolvetica` with 
 
 ## Example
 
-![Alt Text](url)
+When You did everything correctly, you should see something like this:
+![Gmod loadscreen](https://raw.github.com/thekonz/gmod/master/example.png)
